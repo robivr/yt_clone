@@ -1,0 +1,30 @@
+.video_tile {
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.video_tile__inner {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+}
+
+.video_tile__inner:visited {
+  color: white;
+}
+
+.video_tile__metadata {
+  margin: 0;
+  text-align: left;
+}
+
+.video_tile__margin::after {
+  content: '•';
+  margin: 0 5px;
+}
+
+.video_tile__sublink {
+  color: white;
+  text-decoration: none;
+}

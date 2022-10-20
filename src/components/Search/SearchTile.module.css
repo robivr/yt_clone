@@ -1,0 +1,49 @@
+.tile {
+  /* background-color: red; */
+
+  display: flex;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.tile__inner {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+}
+
+.tile__inner:visited {
+  color: white;
+}
+
+.tile__info {
+  margin-left: 15px;
+}
+
+.tile__info__title {
+  /* background-color: blue; */
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.tile__info__views::after {
+  content: '•';
+  margin: 0 5px;
+}
+
+.tile__info__description {
+  /* background-color: green; */
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.tile__info__uploader {
+  /* background-color: yellow; */
+  font-size: 0.9rem;
+  color: #666;
+  display: flex;
+}
